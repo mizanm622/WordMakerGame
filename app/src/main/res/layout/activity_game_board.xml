@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anew.wordmakergame.GameBoardActivity">
+
+
+   <TableRow
+       android:id="@+id/row1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+    <EditText
+
+        android:background="@drawable/edittextdesign"
+        android:id="@+id/tv1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:hint="A"
+        android:textAlignment="center"
+        android:layout_margin="3dp"
+       />
+
+       <EditText
+           android:background="@drawable/edittextdesign"
+           android:layout_margin="3dp"
+           android:id="@+id/tv2"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:hint="C"
+           android:textAlignment="center"
+
+           />
+
+       <EditText
+           android:background="@drawable/edittextdesign"
+           android:layout_margin="3dp"
+           android:id="@+id/tv3"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:hint="D"
+           android:textAlignment="center"
+
+           />
+
+       <EditText
+           android:background="@drawable/edittextdesign"
+           android:layout_margin="3dp"
+           android:id="@+id/tv4"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:hint="E"
+           android:textAlignment="center"
+
+           />
+
+       <EditText
+           android:background="@drawable/edittextdesign"
+           android:layout_margin="3dp"
+           android:id="@+id/tv5"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:hint="F"
+           android:textAlignment="center"
+
+           />
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_below="@+id/row1"
+       >
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:id="@+id/tv6"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="G"
+          android:textAlignment="center"
+          android:layout_margin="3dp"
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv7"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="H"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv8"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="I"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv9"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="J"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv10"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="K"
+          android:textAlignment="center"
+
+          />
+   </TableRow>
+
+
+   <TableRow
+       android:id="@+id/row3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_below="@+id/row2"
+       >
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:id="@+id/tv11"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="L"
+          android:textAlignment="center"
+          android:layout_margin="3dp"
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv12"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="M"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv13"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="N"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv14"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="O"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv15"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="P"
+          android:textAlignment="center"
+
+          />
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_below="@+id/row3"
+       >
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:id="@+id/tv16"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="Q"
+          android:textAlignment="center"
+          android:layout_margin="3dp"
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv17"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="R"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv18"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="S"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv19"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="T"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv20"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="U"
+          android:textAlignment="center"
+
+          />
+   </TableRow>
+   <TableRow
+       android:id="@+id/row5"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_below="@id/row4"
+       >
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:id="@+id/tv21"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="V"
+          android:textAlignment="center"
+          android:layout_margin="3dp"
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv22"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="W"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv23"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="X"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv24"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="Y"
+          android:textAlignment="center"
+
+          />
+
+      <EditText
+          android:background="@drawable/edittextdesign"
+          android:layout_margin="3dp"
+          android:id="@+id/tv25"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:hint="Z"
+          android:textAlignment="center"
+          />
+   </TableRow>
+
+</RelativeLayout>
