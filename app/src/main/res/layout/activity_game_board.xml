@@ -4,7 +4,7 @@
     android:id="@+id/activity_game_board"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.anew.wordmakergame.GameBoardActivity">
+    tools:context="com.example.anew.wordmakergame.Activity.GameBoardActivity">
 
 
    <TableRow

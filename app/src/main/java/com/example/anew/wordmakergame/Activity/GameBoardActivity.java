@@ -1,7 +1,9 @@
-package com.example.anew.wordmakergame;
+package com.example.anew.wordmakergame.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.anew.wordmakergame.R;
 
 public class GameBoardActivity extends AppCompatActivity {
 
