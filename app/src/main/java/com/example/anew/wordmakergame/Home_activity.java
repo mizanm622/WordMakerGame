@@ -1,9 +1,7 @@
-package com.example.anew.wordmakergame.Activity;
+package com.example.anew.wordmakergame;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.example.anew.wordmakergame.R;
 
 public class Home_activity extends AppCompatActivity {
 
